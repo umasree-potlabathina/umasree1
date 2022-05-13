@@ -61,6 +61,17 @@ cursor: pointer;
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+ 
+ .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .video-author,
+  .video-stats,
+  .video-author-container .tooltip {
+    font-size: 14px;
+  }
 }
 
 .video-time {
